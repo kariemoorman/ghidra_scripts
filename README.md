@@ -1,6 +1,6 @@
-# 🐲 ghidra_scripts 🐲
+<h1 align='center'>🐲 ghidra_scripts 🐲</h1>
 
-A collection of scripts for [Ghidra](https://github.com/NationalSecurityAgency/ghidra)
+<p align='center'>A collection of scripts for <a href='https://github.com/NationalSecurityAgency/ghidra' target='_blank'>Ghidra</a></p>
 
 
 ---
