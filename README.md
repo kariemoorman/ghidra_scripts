@@ -2,13 +2,48 @@
 
 A collection of scripts for [Ghidra](https://github.com/NationalSecurityAgency/ghidra)
 
+
 ---
 
 ## Scripts
 
-### [ExportAllDecompiledFunctions](https://github.com/kariemoorman/ghidra_scripts/blob/main/Export/ExportAllDecompiledFunctions.java)
+<table>
+  <thead>
+  <tr>
+    <th>Script</th>
+    <th>Description</th>
+    <th>Example Output</th>
+  </tr>
+  </thead>
+  <tr>
+    <td valign="top"><a href='https://github.com/kariemoorman/ghidra_scripts/blob/main/Export/ExportAllDecompiledFunctions.java' target='_blank'>ExportAllDecompiledFunctions</a></td>
+    <td valign="top">Decompiles all functions in the currently loaded program, and exports the code to a text file.</td>
+    <td valign="top">
 
-- Decompiles all functions in the currently loaded program, and exports the code to a text file. 
+```c
+
+/* Decompiled output for program: SAMPLE.dll */
+/* Total functions: 2056 */
+
+/* ================================================== */
+/* Function: GetVersionNumber */
+/* Memory Address: 10001000 */
+/* ================================================== */
+
+undefined4 GetVersionNumber(void)
+
+{
+                    /* 0x1000  34  GetVersionNumber */
+  return 0xf96;
+}
+
+```
+      
+  </td>
+  </tr>
+</table>
+
+<br>
 
 ---
 
